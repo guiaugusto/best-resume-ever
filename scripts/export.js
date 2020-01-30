@@ -75,6 +75,7 @@ const convert = async () => {
             await browser.close();
         });
     } catch (err) {
+      console.log('Nothing...')
         throw new Error(err);
     }
     console.log('Finished exports.');

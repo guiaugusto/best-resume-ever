@@ -1,92 +1,97 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
-  middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  first: Guilherme
+  middle: Augusto Nunes Silva
+  last:
+about: Atualmente no 10º semestre do curso de
+       Engenharia de Software da Universidade
+       de Brasília - Campus Gama.
+
+       Tenho familiaridade com desenvolvimento
+       Backend em Python, tanto na área de criação
+       de APIs REST com o sistema Django
+       quanto no desenvolvimento de chatbots
+       utilizando o framework Rasa. Relacionado
+       ao desenvolvimento FrontEnd, desenvolvo
+       aplicações em Vue.js.
+
+position: Desenvolvedor/Engenheiro de Software
 
 birth:
-  year: 1990
-  location: New York
+  year: 1997
+  location: Ceilândia - Distrito Federal
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Laboratório Avançado de Produção, Pesquisa e Inovação em Software (LAPPIS)
+  position: Desenvolvedor FullStack
+  timeperiod: Março de 2018 - Julho de 2018
+  description: Desenvolvimento e manutenção da plataforma Noosfero, desenvolvida em Ruby on Rails, e para o Portal oficial da Universidade de Brasília - Campus Gama.
+  website: http://gitlab.com/noosfero/noosfero/
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
-
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: LAPPIS
+  position: Desenvolvedor FullStack
+  timeperiod: Agosto de 2018
+  description: Desenvolvimento do sistema de monitoramento do consumo energético da Universidade de Brasília, desenvolvido com Django REST no Backend e Vue.js no FrontEnd.
+  website: https://gitlab.com/lappis-unb/projects/SMI/
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: Curso de Inglês completo
+  timeperiod: 2014 - 2016
+  description: Centro Interescolar de Línguas de Ceilândia (CILC)
+  website: https://www.facebook.com/cilceilandia/
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Curso de Francês completo
+  timeperiod: 2008 - 2014
+  description: Centro Interescolar de Línguas de Ceilândia (CILC)
+  website: https://www.facebook.com/cilceilandia/
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
+- name: Python
   level: 99
-- name: CSS3
+- name: Django
   level: 95
 - name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
   level: 80
-- name: ES.Next
+- name: C++
+  level: 93
+- name: Git
+  level: 60
+- name: Ruby on Rails
+  level: 80
+- name: Vue.js
   level: 70
 - name: Docker
   level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: HTML
+  level: 70
+knowledge: Procuro sempre aprender mais e buscar novas experiências para aprimorar meus conhecimentos na área.
 
 projects:
-- name: best-resume-ever
-  platform: Vue
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: Lino
+  platform: Python
+  description: Chatbot para orientar, alertar e tirar dúvidas relacionadas aos assuntos mais frequentes da Universidade de Brasília - Campus FGA.
+  url: https://github.com/BotLino/Lino
+
+- name: SMI
+  platform: Django e Vue.js
+  description: Sistema de Monitoramento Energético para coleta e análise de dados obtidos pelos medidores.
+  url: https://gitlab.com/lappis-unb/projects/SMI/
 
 hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
-
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
 
 contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: rasa-ptbr-boilerplate
+  description: Integração do chatbot na plataforma Telegram
+  url: https://github.com/lappis-unb/rasa-ptbr-boilerplate/
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: guilherme.francais@gmail.com
+  phone: (61) 99551-4805
+  street: Ceilândia-Sul
+  city: Ceilândia - Distrito Federal
+  website: linkedin.com/in/guiaugustons/
+  github: guiaugusto
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `
