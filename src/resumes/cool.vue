@@ -14,7 +14,23 @@
           </div>
 
           <div class="section-content section-content--plain">
-            {{ person.about }}
+            Sou advogado formado pela
+            Universidade de Uberaba e tenho por
+            objetivo conquistar meu espaço no
+            mercado de trabalho.
+            <br>
+            <br>
+            Além da esfera jurídica, alimento
+            grande interesse pela literatura,
+            filosofia, história e teologia.
+            Meus pontos marcantes são a
+            prestatividade e determinação.
+            <br>
+            <br>
+            Por fim, busco contribuir de todas as
+            formas necessárias para o
+            crescimento e sucesso do meu
+            contratante.
             <br/>
             <br/>
             {{ person.knowledge }}
@@ -113,6 +129,8 @@
 
               <div class="section-content__text">{{ experience.timeperiod }}</div>
               <span class="section-content__text--light">{{ experience.description }}</span>
+              <br>
+              <br>
             </a>
           </div>
         </div>
@@ -130,9 +148,11 @@
               :href="education.website">
 
               <span class="section-content__header"> {{ education.school }} </span>
-              <span class="section-content__subheader">{{ education.degree }}</span>
+              <span class="section-content__header">{{ education.degree }}</span>
               <span class="section-content__text"> {{ education.timeperiod }} </span>
               <span class="section-content__text--light"> {{ education.description }} </span>
+              <br>
+              <br>
             </a>
           </div>
         </div>
@@ -320,7 +340,7 @@ a {
 
   &__header {
     display: block;
-    font-size: 1.1em;
+    font-size: 1.15em;
     font-weight: 500;
   }
 
@@ -332,10 +352,10 @@ a {
   &__plain,
   &__text {
     display: block;
-    font-size: 12px;
+    font-size: 13px;
 
     &--light {
-      font-size: 12px;
+      font-size: 13px;
     }
   }
 

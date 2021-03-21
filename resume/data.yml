@@ -1,97 +1,85 @@
 /* #*/ export const PERSON = `
 name:
-  first: Guilherme
-  middle: Augusto Nunes Silva
+  first: Wilander Victor
+  middle: Martins Oliveira
   last:
-about: Atualmente no 10º semestre do curso de
-       Engenharia de Software da Universidade
-       de Brasília - Campus Gama.
 
-       Tenho familiaridade com desenvolvimento
-       Backend em Python, tanto na área de criação
-       de APIs REST com o sistema Django
-       quanto no desenvolvimento de chatbots
-       utilizando o framework Rasa. Relacionado
-       ao desenvolvimento FrontEnd, desenvolvo
-       aplicações em Vue.js.
+about: Sou advogado formado pela
+       Universidade de Uberaba e tenho por
+       objetivo conquistar meu espaço no
+       mercado de trabalho.
 
-position: Desenvolvedor/Engenheiro de Software
+       Além da esfera jurídica, alimento
+       grande interesse pela literatura,
+       filosofia, história e teologia.
+       Meus pontos marcantes são a
+       prestatividade e determinação.
+       Por fim, busco contribuir de todas as
+       formas necessárias para o
+       crescimento e sucesso do meu
+       contratante.
+
+position: Advogado, OAB/MG 207.170
 
 birth:
   year: 1997
-  location: Ceilândia - Distrito Federal
+  location: Uberaba/MG
 
 experience:
-- company: Laboratório Avançado de Produção, Pesquisa e Inovação em Software (LAPPIS)
-  position: Desenvolvedor FullStack
-  timeperiod: Março de 2018 - Julho de 2018
-  description: Desenvolvimento e manutenção da plataforma Noosfero, desenvolvida em Ruby on Rails, e para o Portal oficial da Universidade de Brasília - Campus Gama.
-  website: http://gitlab.com/noosfero/noosfero/
+- company: Comércio de Doces Uberaba LTDA.
+  position: Serviços Gerais (informal)
+  timeperiod: 2013 - 2019
+  description:  Atendimento à clientes, função de balconista, operação de caixa, cozinha, limpeza, carga/descarga/reposição de produtos.
 
-- company: LAPPIS
-  position: Desenvolvedor FullStack
-  timeperiod: Agosto de 2018
-  description: Desenvolvimento do sistema de monitoramento do consumo energético da Universidade de Brasília, desenvolvido com Django REST no Backend e Vue.js no FrontEnd.
-  website: https://gitlab.com/lappis-unb/projects/SMI/
+- company: Universidade de Uberaba - UNIUBE
+  position: Aluno / Bolsista de Recursos Instrucionais
+  timeperiod: 2015 - 2016
+  description: Operação, montagem e transporte de aparelhos áudiovisuais, assistência nos eventos institucionais, controle e suporte de equipamentos.
+
+- company: Distribuidora Rio Branco de Petróleo LTDA.
+  position: Estagiário de Departamento Jurídico
+  timeperiod: Abril de 2018 - Dezembro de 2019
+  description: Cobranças extrajudiciais e judiciais, protesto de títulos, análise e consulta de processos, confecção de documentos e contratos, serviços administrativos e jurídicos, função organizacional.
 
 education:
-- degree: Curso de Inglês completo
-  timeperiod: 2014 - 2016
-  description: Centro Interescolar de Línguas de Ceilândia (CILC)
-  website: https://www.facebook.com/cilceilandia/
+- degree: Ensino Superior em Direito
+  timeperiod: 2015 - 2019
+  description: Universidade de Uberaba - UNIUBE
 
-- degree: Curso de Francês completo
-  timeperiod: 2008 - 2014
-  description: Centro Interescolar de Línguas de Ceilândia (CILC)
-  website: https://www.facebook.com/cilceilandia/
+- degree: Graduação em Inglês
+  timeperiod: 2007 - 2011
+  description: Centro Interescolar Estadual de Línguas - CIEL
+
+- degree: Comunicação e Fluência em Inglês
+  timeperiod: 2012 - 2013
+  description: Number One
+
+- degree: Graduação em Inglês
+  timeperiod: 2014
+  description: Number One
+
+- degree: Curso Técnico em Oratória
+  timeperiod: 2017
+  description: Serviço Nacional de Aprendizagem Comercial - SENAC
 
 # skill level goes 0 to 100
 skills:
-- name: Python
-  level: 99
-- name: Django
-  level: 95
-- name: JavaScript
-  level: 80
-- name: C++
-  level: 93
-- name: Git
-  level: 60
-- name: Ruby on Rails
-  level: 80
-- name: Vue.js
-  level: 70
-- name: Docker
-  level: 99
-- name: HTML
-  level: 70
-knowledge: Procuro sempre aprender mais e buscar novas experiências para aprimorar meus conhecimentos na área.
+
+knowledge:
 
 projects:
-- name: Lino
-  platform: Python
-  description: Chatbot para orientar, alertar e tirar dúvidas relacionadas aos assuntos mais frequentes da Universidade de Brasília - Campus FGA.
-  url: https://github.com/BotLino/Lino
-
-- name: SMI
-  platform: Django e Vue.js
-  description: Sistema de Monitoramento Energético para coleta e análise de dados obtidos pelos medidores.
-  url: https://gitlab.com/lappis-unb/projects/SMI/
 
 hobbies:
 
 contributions:
-- name: rasa-ptbr-boilerplate
-  description: Integração do chatbot na plataforma Telegram
-  url: https://github.com/lappis-unb/rasa-ptbr-boilerplate/
 
 contact:
-  email: guilherme.francais@gmail.com
-  phone: (61) 99551-4805
-  street: Ceilândia-Sul
-  city: Ceilândia - Distrito Federal
-  website: linkedin.com/in/guiaugustons/
-  github: guiaugusto
+  email: wilandermh@gmail.com
+  phone: (34) 9 9227-4183
+  street: Uberaba/MG
+  city: Uberaba/MG
+  website: linkedin.com/in/victorwilander/
+  github:
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
-lang: en
+lang: pt
 `
