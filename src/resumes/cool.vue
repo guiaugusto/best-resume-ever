@@ -14,23 +14,18 @@
           </div>
 
           <div class="section-content section-content--plain">
-            Sou advogado formado pela
-            Universidade de Uberaba e tenho por
-            objetivo conquistar meu espaço no
-            mercado de trabalho.
+            Sou advogado formado pela Universidade de Uberaba
+            e tenho por objetivo conquistar meu espaço no campo jurídico.
             <br>
             <br>
-            Além da esfera jurídica, alimento
-            grande interesse pela literatura,
-            filosofia, história e teologia.
-            Meus pontos marcantes são a
-            prestatividade e determinação.
+            Além do Direito, alimento de forma interdisciplinar o
+            conhecimento pela literatura, filosofia, história e teologia.
             <br>
             <br>
-            Por fim, busco contribuir de todas as
-            formas necessárias para o
-            crescimento e sucesso do meu
-            contratante.
+            Minhas características marcantes são a prestatividade, paciência e determinação.
+            <br>
+            <br>
+            Por fim, buscarei contribuir da melhor forma possível para o crescimento e sucesso do meu contratante.
             <br/>
             <br/>
             {{ person.knowledge }}

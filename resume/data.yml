@@ -19,7 +19,7 @@ about: Sou advogado formado pela
        crescimento e sucesso do meu
        contratante.
 
-position: Advogado, OAB/MG 207.170
+position: Advogado, inscrito na OAB/MG 207.170
 
 birth:
   year: 1997
@@ -34,7 +34,7 @@ experience:
 - company: Universidade de Uberaba - UNIUBE
   position: Aluno / Bolsista de Recursos Instrucionais
   timeperiod: 2015 - 2016
-  description: Operação, montagem e transporte de aparelhos áudiovisuais, assistência nos eventos institucionais, controle e suporte de equipamentos.
+  description: Operação, montagem e transporte de aparelhos audiovisuais, assistência nos eventos institucionais, controle e suporte de equipamentos.
 
 - company: Distribuidora Rio Branco de Petróleo LTDA.
   position: Estagiário de Departamento Jurídico
@@ -81,5 +81,5 @@ contact:
   website: linkedin.com/in/victorwilander/
   github:
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
-lang: pt
+lang: pt-br
 `
